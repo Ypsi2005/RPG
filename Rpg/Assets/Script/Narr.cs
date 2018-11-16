@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Character {
+public class Narr : Player
+{
 
+	public int _atk;
+	
+	
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		AtK = _atk;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
