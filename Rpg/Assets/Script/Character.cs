@@ -13,7 +13,7 @@ public abstract class Character : MonoBehaviour {
     public int AtK { get; set; }
     public int Def{ get; set; }
     public int Mag { get; set; }
-    public int MDF { get; set; }
+    public int Mdf { get; set; }
     public int Agi { get; set; }
     public int Luk { get; set; }
     public int Acc { get; set; }
@@ -39,5 +39,13 @@ public abstract class Character : MonoBehaviour {
     public virtual void DmgDone()
     {
 
+    }
+
+    public virtual void die(int Hp)
+    {
+        if (Hp < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
