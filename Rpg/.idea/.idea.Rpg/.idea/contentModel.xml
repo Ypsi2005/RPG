@@ -8,8 +8,13 @@
       <e p="Assets" t="Include">
         <e p="Script" t="Include">
           <e p="Character.cs" t="Include" />
+          <e p="ItemMod.cs" t="Include" />
+          <e p="Loot.cs" t="Include" />
+          <e p="LootStats.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
           <e p="Narr.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="StatManager.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
