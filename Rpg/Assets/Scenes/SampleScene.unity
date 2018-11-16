@@ -200,6 +200,8 @@ GameObject:
   - component: {fileID: 1897065689}
   - component: {fileID: 1897065688}
   - component: {fileID: 1897065687}
+  - component: {fileID: 1897065690}
+  - component: {fileID: 1897065691}
   m_Layer: 0
   m_Name: TestDummy
   m_TagString: Untagged
@@ -221,7 +223,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -284,3 +286,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1897065690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897065686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a77a0ec4aa04a4e8c29af542e6ed50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _atk: 0
+--- !u!114 &1897065691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897065686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31f79f1f863e6744a11e7dc8d2b8608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 1
