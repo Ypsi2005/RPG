@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -15,7 +15,7 @@ MonoBehaviour:
   singleName: Gold
   pluralName: Gold
   description: The primary currency.
-  icon: {fileID: 21300036, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
+  icon: {fileID: 21300032, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
   stringFormat: '{0} {3}'
   currencyConversions:
   - factor: 100

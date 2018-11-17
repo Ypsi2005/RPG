@@ -15,7 +15,7 @@ MonoBehaviour:
   singleName: Copper
   pluralName: Copper
   description: Copper!!!
-  icon: {fileID: 0}
+  icon: {fileID: 21300054, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
   stringFormat: '{0} {3}'
   currencyConversions: []
   allowFractions: 1

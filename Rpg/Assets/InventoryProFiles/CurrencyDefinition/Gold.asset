@@ -15,7 +15,7 @@ MonoBehaviour:
   singleName: Gold
   pluralName: Gold
   description: Gold!!!
-  icon: {fileID: 0}
+  icon: {fileID: 21300036, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
   stringFormat: '{0} {3}'
   currencyConversions: []
   allowFractions: 1

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 1
   singleName: Silver
-  pluralName: Silber
-  description: Silber!!!
-  icon: {fileID: 0}
+  pluralName: Silver
+  description: Silver!!!
+  icon: {fileID: 21300052, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
   stringFormat: '{0} {3}'
   currencyConversions: []
   allowFractions: 1
