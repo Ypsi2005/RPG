@@ -1,30 +1,23 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.IMGUI.Controls;
 
 public class UseMyScriptableObject : MonoBehaviour {
 	public MyScriptableObjectClass myScriptableObject;
-	private List<Light> myLights;
+	public GameObject chest;
+	private List<SpriteRenderer> mySprites;
 
 	// Use this for initialization
 	void Start () 
 	{
-		myLights = new List<Light>();
-		foreach (Vector3 spawn in myScriptableObject.spawnPoints) 
-		{
-			GameObject myLight = new GameObject("Light");
-			myLight.AddComponent <Light>();
-			myLight.transform.position = spawn;
-			myLight.GetComponent<Light>().enabled = false;
-			if (myScriptableObject.colorIsRandom) 
-			{
-				myLight.GetComponent<Light>().color = new Color (Random.Range (0.0f, 1.0f), Random.Range (0.0f, 1.0f), Random.Range (0.0f, 1.0f));
-			} 
-			else 
-			{
-				myLight.GetComponent<Light>().color = myScriptableObject.thisColor;
-			}
-			myLights.Add (myLight.GetComponent<Light>());
+		mySprites = new List<SpriteRenderer>();
+		foreach (Vector3 spawn in myScriptableObject.spawnPoints) {
+			Instantiate(chest, spawn, Quaternion.identity);
+//			mySprite.transform.position = spawn;
+//			mySprite.GetComponent<Light>().enabled = false;
+//			mySprites.Add (mySprite.GetComponent<SpriteRenderer>());
 		}
 	}
     
@@ -32,23 +25,23 @@ public class UseMyScriptableObject : MonoBehaviour {
 	void Update () {
 		if (Input.GetButtonDown ("Fire1")) 
 		{
-			foreach (Light light in myLights) 
+			foreach (SpriteRenderer light in mySprites) 
 			{
 				light.enabled = !light.enabled;
 			}
 		}
 		if (Input.GetButtonDown("Fire2"))
 		{
-			UpdateLights();
+			
 		}
 
 	}
-
-	void UpdateLights () 
-	{
-		foreach (var myLight in myLights)
-		{
-			myLight.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
-		}
-	}
+//
+//	void UpdateLights () 
+//	{
+//		foreach (var myLight in mySprites)
+//		{
+//			myLight.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
+//		}
+//	}
 }

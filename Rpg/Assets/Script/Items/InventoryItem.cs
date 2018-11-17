@@ -4,8 +4,8 @@ using System.Collections;
 [System.Serializable] //  Our Representation of an InventoryItem
 public class InventoryItem {
     public string itemName = "New Item"; //  What the item will be called in the inventory
-    public Texture2D itemIcon = null; //  What the item will look like in the inventory
-    public Rigidbody itemObject = null; //  Optional slot for a PreFab to instantiate when discarding
+    public Texture2D itemIcon;
+    public Rigidbody itemObjec; //  Optional slot for a PreFab to instantiate when discarding
 
     public float atk;
     public float mag;

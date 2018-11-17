@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using Random = System.Random;
+[CreateAssetMenu]
+public class Item : ScriptableObject {
 
-public class Item 
-{
+    public Sprite sprite;
+    public GameObject itemObject;
 
-    public string Name { get; set; }
-    public int Stat1 { get; set; }
-    public int Stat2  { get; set; }
 
 
 }

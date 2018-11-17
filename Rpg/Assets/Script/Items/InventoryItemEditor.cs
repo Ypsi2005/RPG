@@ -96,18 +96,19 @@ public class InventoryItemEditor : EditorWindow {
                 EditorGUILayout.LabelField("of   " + inventoryItemList.itemList.Count.ToString() + "  items", "",
                     GUILayout.ExpandWidth(false));
                 GUILayout.EndHorizontal();
-
                 inventoryItemList.itemList[viewIndex - 1].itemName = EditorGUILayout.TextField("Item Name",
-                    inventoryItemList.itemList[viewIndex - 1].itemName as string);
+                    inventoryItemList.itemList[viewIndex - 1].itemName, GUILayout.Width(300));
                 inventoryItemList.itemList[viewIndex - 1].itemIcon = EditorGUILayout.ObjectField("Item Icon",
                     inventoryItemList.itemList[viewIndex - 1].itemIcon, typeof(Texture2D), false) as Texture2D;
-                inventoryItemList.itemList[viewIndex - 1].itemObject = EditorGUILayout.ObjectField("Item Object",
-                    inventoryItemList.itemList[viewIndex - 1].itemObject, typeof(Rigidbody), false) as Rigidbody;
+//                inventoryItemList.itemList[viewIndex - 1].itemObject = EditorGUILayout.ObjectField("Item Object",
+//                    inventoryItemList.itemList[viewIndex - 1].itemObject, typeof(Rigidbody), false) as Rigidbody;
 
 
                 GUILayout.Space(10);
 
                 GUILayout.BeginHorizontal();
+                EditorGUIUtility.labelWidth = 40;
+                EditorGUIUtility.fieldWidth = 40;
                 inventoryItemList.itemList[viewIndex - 1].atk = EditorGUILayout.FloatField("ATK ",
                     inventoryItemList.itemList[viewIndex - 1].atk, GUILayout.ExpandWidth(false));
                 inventoryItemList.itemList[viewIndex - 1].mag = EditorGUILayout.FloatField("MAG",
@@ -138,6 +139,8 @@ public class InventoryItemEditor : EditorWindow {
                 GUILayout.Space(10);
 
                 GUILayout.BeginHorizontal();
+                EditorGUIUtility.labelWidth = 100;
+                EditorGUIUtility.fieldWidth = 40;
                 inventoryItemList.itemList[viewIndex - 1].isUnique = (bool) EditorGUILayout.Toggle("Unique",
                     inventoryItemList.itemList[viewIndex - 1].isUnique, GUILayout.ExpandWidth(false));
                 inventoryItemList.itemList[viewIndex - 1].isIndestructible = (bool) EditorGUILayout.Toggle(
