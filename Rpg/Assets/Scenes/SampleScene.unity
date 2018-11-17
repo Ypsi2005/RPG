@@ -5529,7 +5529,6 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 22220350, guid: c4212d0a290266444a7bab24a3747aaa,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1854278875}
   m_CullTransparentMesh: 0
 --- !u!1 &1897065686
