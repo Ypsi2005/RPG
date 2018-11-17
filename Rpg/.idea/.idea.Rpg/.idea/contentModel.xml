@@ -8,13 +8,30 @@
       <e p="Assets" t="Include">
         <e p="Script" t="Include">
           <e p="Character.cs" t="Include" />
-          <e p="ItemMod.cs" t="Include" />
-          <e p="Loot.cs" t="Include" />
-          <e p="LootStats.cs" t="Include" />
+          <e p="Classes" t="Include">
+            <e p="Barbar.cs" t="Include" />
+            <e p="Barde.cs" t="Include" />
+            <e p="Druid.cs" t="Include" />
+            <e p="Hunter.cs" t="Include" />
+            <e p="Mage.cs" t="Include" />
+            <e p="Priest.cs" t="Include" />
+            <e p="Rouge.cs" t="Include" />
+            <e p="Sniper.cs" t="Include" />
+            <e p="Summoner.cs" t="Include" />
+            <e p="Warrior.cs" t="Include" />
+          </e>
+          <e p="Items" t="Include">
+            <e p="CharacterInventory.cs" t="Include" />
+            <e p="CreateInventoryItemList.cs" t="Include" />
+            <e p="InventoryItem.cs" t="Include" />
+            <e p="InventoryItemEditor.cs" t="Include" />
+            <e p="InventoryItemList.cs" t="Include" />
+            <e p="MakeScriptableObject.cs" t="Include" />
+            <e p="MyScriptableObjectClass.cs" t="Include" />
+            <e p="UseMyScriptableObject.cs" t="Include" />
+          </e>
           <e p="Movement.cs" t="Include" />
-          <e p="Narr.cs" t="Include" />
           <e p="Player.cs" t="Include" />
-          <e p="StatManager.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
