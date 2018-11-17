@@ -2,20 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Narr : Player
-{
+public class Summoner : MonoBehaviour {
 
-	public int _atk;
-	
-	
 	// Use this for initialization
-	void Start ()
-	{
-		AtK = _atk;
+	void Start () {
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		
 	}
 }

@@ -200,8 +200,8 @@ GameObject:
   - component: {fileID: 1897065689}
   - component: {fileID: 1897065688}
   - component: {fileID: 1897065687}
-  - component: {fileID: 1897065690}
   - component: {fileID: 1897065691}
+  - component: {fileID: 1897065690}
   m_Layer: 0
   m_Name: TestDummy
   m_TagString: Untagged
@@ -280,7 +280,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1897065686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.23, y: -0.85, z: 0}
+  m_LocalPosition: {x: -2.48, y: 1.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -294,10 +294,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1897065686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a77a0ec4aa04a4e8c29af542e6ed50, type: 3}
+  m_Script: {fileID: 11500000, guid: fc9eb455365f12149a4cd63b2b159507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _atk: 0
+  inventory: []
 --- !u!114 &1897065691
 MonoBehaviour:
   m_ObjectHideFlags: 0
