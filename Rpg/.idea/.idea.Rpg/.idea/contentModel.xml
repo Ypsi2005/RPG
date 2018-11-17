@@ -6,7 +6,6 @@
     <e p="C:\Users\Ypsi\Documents\GitHub\RPG\RPG" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Inventory.cs" t="Include" />
         <e p="Script" t="Include">
           <e p="Character.cs" t="Include" />
           <e p="Chest.cs" t="Include" />
@@ -24,8 +23,6 @@
           </e>
           <e p="Enemy.cs" t="Include" />
           <e p="Item.cs" t="Include" />
-          <e p="ItemBase.cs" t="Include" />
-          <e p="ItemDatabase.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="CharacterInventory.cs" t="Include" />
             <e p="CreateInventoryItemList.cs" t="Include" />
@@ -36,7 +33,6 @@
             <e p="UseMyScriptableObject.cs" t="Include" />
           </e>
           <e p="Movement.cs" t="Include" />
-          <e p="Player.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
