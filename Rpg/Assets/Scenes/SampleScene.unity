@@ -201,11 +201,7 @@ GameObject:
   - component: {fileID: 1897065688}
   - component: {fileID: 1897065687}
   - component: {fileID: 1897065691}
-<<<<<<< HEAD
-  - component: {fileID: 1897065693}
-=======
   - component: {fileID: 1897065690}
->>>>>>> 779a77c65b359634018798f99c12965d058f7678
   m_Layer: 0
   m_Name: TestDummy
   m_TagString: Untagged
