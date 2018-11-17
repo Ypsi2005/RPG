@@ -20,6 +20,9 @@
             <e p="Summoner.cs" t="Include" />
             <e p="Warrior.cs" t="Include" />
           </e>
+          <e p="Enemy.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
+          <e p="ItemDatabase.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="CharacterInventory.cs" t="Include" />
             <e p="CreateInventoryItemList.cs" t="Include" />

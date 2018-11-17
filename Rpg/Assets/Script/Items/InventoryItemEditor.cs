@@ -104,9 +104,7 @@ public class InventoryItemEditor : EditorWindow {
                 inventoryItemList.itemList[viewIndex - 1].itemObject = EditorGUILayout.ObjectField("Item Object",
                     inventoryItemList.itemList[viewIndex - 1].itemObject, typeof(Rigidbody), false) as Rigidbody;
 
-                
-                
-                
+
                 GUILayout.Space(10);
 
                 GUILayout.BeginHorizontal();
@@ -123,7 +121,7 @@ public class InventoryItemEditor : EditorWindow {
                 inventoryItemList.itemList[viewIndex - 1].dex = EditorGUILayout.FloatField("DEX",
                     inventoryItemList.itemList[viewIndex - 1].dex, GUILayout.ExpandWidth(false));
                 GUILayout.EndHorizontal();
-                
+
                 GUILayout.Space(10);
 
                 GUILayout.BeginHorizontal();
@@ -136,7 +134,7 @@ public class InventoryItemEditor : EditorWindow {
                 inventoryItemList.itemList[viewIndex - 1].wisdom = EditorGUILayout.FloatField("WIS",
                     inventoryItemList.itemList[viewIndex - 1].wisdom, GUILayout.ExpandWidth(false));
                 GUILayout.EndHorizontal();
-                
+
                 GUILayout.Space(10);
 
                 GUILayout.BeginHorizontal();
