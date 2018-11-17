@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ItemDatabase : MonoBehaviour {
 
-
-    public List<Item> Swords { get; set; } = new List<Item>();
-
+    
+    public List<Item> Swords { get; set; }
+    
+    
 
 }
