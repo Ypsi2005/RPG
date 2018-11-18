@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Grass : MonoBehaviour {
 
-    public Vector3 OnMouseDown()
+    public Vector3 getPosi()
     {
         Debug.Log(transform.position);
         
         return transform.position;
     }
+
 
 }
