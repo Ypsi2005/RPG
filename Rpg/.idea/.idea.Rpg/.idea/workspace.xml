@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1821175-845d-4f08-932c-07a1b950bd9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="b1821175-845d-4f08-932c-07a1b950bd9b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +12,11 @@
     <session id="23605122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -33,13 +31,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="36" />
+          <entry key="cs" value="37" />
           <entry key="unity" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="36" />
+          <entry key="C#" value="37" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -58,16 +56,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/Character.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/MyScriptableObjectClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/InventoryItemEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/UseMyScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/CharacterInventory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Chest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/CreateInventoryItemList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Items/InventoryItemList.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,10 +119,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,11 +176,12 @@
       <workItem from="1542451800336" duration="6229000" />
       <workItem from="1542458779708" duration="6122000" />
       <workItem from="1542496189933" duration="2377000" />
+      <workItem from="1542503242734" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23648000" />
+    <option name="totallyTimeSpent" value="24371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -206,7 +195,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,27 +327,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Modules/Stats/UI/StatExperienceUI.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Currency/UIModels/CurrencyUIElement.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Managers/Editor/InventoryEditors/Currency/CurrencyEditor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Managers/Editor/InventoryEditors/Currency/CurrencyEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Devdog/General/Player/Player2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Other/Editor/InventoryEditorBase.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Modules/Player/InventoryPlayer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Modules/Triggers/ItemTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="99" column="7" selection-start-line="92" selection-end-line="99" selection-end-column="7" />
+        <state relative-caret-position="251">
+          <caret line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Devdog/General/Player/Player2D.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Other/Editor/InventoryEditorBase.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Modules/Triggers/ItemTriggerInputHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Devdog/InventoryPro/Scripts/Modules/Player/InventoryPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1857">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="79" column="2" lean-forward="true" selection-end-line="79" selection-end-column="2" />
         </state>
       </provider>
     </entry>
