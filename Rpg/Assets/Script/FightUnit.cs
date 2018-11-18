@@ -13,7 +13,7 @@ public class FightUnit : MonoBehaviour
         int rndX = Random.Range(0, 15);
         int rndY = Random.Range(8, 10);
 
-                grid[rndX, rndY] = (GameObject)Instantiate(d1, new Vector3(rndX, rndY, 0), Quaternion.identity);
+                grid[rndX, rndY] = Instantiate(d1, new Vector3(rndX, rndY, 0), Quaternion.identity);
                 grid[rndX, rndY].name = "Cube" + rndX + "," + rndY;
             
         }

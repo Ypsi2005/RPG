@@ -20,6 +20,7 @@ public class FightFloor : MonoBehaviour
                 grid[i, y] = Instantiate(ground, new Vector3(i, y, 0), Quaternion.identity);
                 grid[i, y] = Instantiate(border, new Vector3(i, y, 0), Quaternion.identity);
                 grid[i, y].name = "Cube" + i + "," + y;
+                
             }
         }
         //The block we skipped we put here.
@@ -31,11 +32,16 @@ public class FightFloor : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Debug.Log("Testing");
+            var mouseX = Input.mousePosition.x;
+            var mouseY= Input.mousePosition.y;
+
+            //Debug.Log("Testing" + "X = " + mouseX + " Y = " + mouseY);
             GameObject tmpry = grid[1, 2];
             grid[1, 2] = grid[2, 2];
             grid[2, 2] = tmpry;
+            
             reposition();
+            
         }
     }
     void reposition()
@@ -48,4 +54,9 @@ public class FightFloor : MonoBehaviour
             }
         }
     }
+
+    //void ()
+    //{
+
+    //}
 }

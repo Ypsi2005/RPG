@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224956248590830190}
   - component: {fileID: 212965194733950420}
+  - component: {fileID: 114531340402365222}
   m_Layer: 0
   m_Name: Dummy
   m_TagString: Untagged
@@ -27,6 +28,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114531340402365222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075668391071924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 592b4571c24962c428a2a34c4b810390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 1
 --- !u!212 &212965194733950420
 SpriteRenderer:
   m_ObjectHideFlags: 1
