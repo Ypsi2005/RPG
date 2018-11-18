@@ -22,6 +22,8 @@
             <e p="Warrior.cs" t="Include" />
           </e>
           <e p="Enemy.cs" t="Include" />
+          <e p="FightFloor.cs" t="Include" />
+          <e p="FightUnit.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Items" t="Include">
             <e p="CharacterInventory.cs" t="Include" />
